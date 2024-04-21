@@ -142,7 +142,7 @@ a {
 }
 .clients .images {
   display: flex;
-  margin-top: 96px;
+  margin-top: 70px;
   align-items: center;
   justify-content: space-between;
 }
@@ -530,6 +530,11 @@ a {
   height: 28px;
   border-radius: 3px;
 }
+.footer .social-link + .social-link {
+  background: #f9f9f9;
+  margin-left: 16px;
+}
+
 .footer .social-link:hover {
   background-color: #ebebeb;
 }
